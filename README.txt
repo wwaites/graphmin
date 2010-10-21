@@ -14,11 +14,16 @@ needed::
     ## don't install this stuff system-wide, use virtualenv
     virtualenv foo
     . ./foo/bin/activate
-    ## install the bits that are needed
+
+    ## install the prerequisites
     pip install pyparsing
     pip install -e svn+http://python-dlp.googlecode.com/svn/trunk/layercake-python#egg=rdflib
     pip install hg+https://fuxi.googlecode.com/hg/#egg=fuxi
-    pip install graphmin
+
+    ## install this package from git
+    git clone git://github.com/wwaites/graphmin.git
+    cd graphmin
+    python setup.py develop
 
 Example
 -------
