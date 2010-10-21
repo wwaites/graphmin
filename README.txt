@@ -39,7 +39,8 @@ Should give this result::
 
     eg:a a eg:A.
 
-Because *eg:a a rdfs:Resource* is entailed by the RDFS inference rules.
+Because the statement *eg:a a rdfs:Resource* in ex1.n3 is entailed by
+the RDFS inference rules.
 
 References
 ----------
