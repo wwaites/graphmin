@@ -1,0 +1,5 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix eg: <http://example.org/>.
+
+eg:a a eg:A ;
+    a rdfs:Resource.

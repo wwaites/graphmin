@@ -1,0 +1,9 @@
+include MANIFEST.in
+include README.txt
+include setup.py
+include setup.cfg
+include graphmin.py
+recursive-include docs *.py
+recursive-include docs *.txt
+recursive-include examples *.n3
+recursive-include examples *.rdf
