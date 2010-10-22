@@ -1,0 +1,7 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix eg: <http://example.org/>.
+
+eg:c1 a rdfs:Class .
+eg:c2 rdfs:subClassOf eg:c1 .
+
+eg:a a eg:c1, eg:c2.
