@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '0.1.7'
+version = '0.1.8'
 
 def readme():
     dirname = os.path.dirname(os.path.abspath(__file__))
