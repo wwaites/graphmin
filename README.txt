@@ -45,4 +45,7 @@ the RDFS inference rules.
 References
 ----------
 
+    * `Minimising RDF Graphs Under Rules and Constraints Revisited`_
     * http://code.google.com/p/fuxi/wiki/TopDownSW
+
+.. _Minimising RDF Graphs Under Rules and Constraints Revisited: http://axel.deri.ie/AMW10/rdfmin-full.pdf
